@@ -34,4 +34,4 @@ University of Minnesota Coding Boot Camp
 For any questions or suggestions, please contact me at lyoko1629@gmail.com
 
 ---
-
+![Dashboard photo](<asssets/Weather Dashboard 2024-05-17 221952.png>)
