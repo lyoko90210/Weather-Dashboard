@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="asssets/style/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Weather Dashboard</h1>
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="search-btn">Search</button>
+    </header>
+
+    <section class="city-selection">
+      <h2>Select a City</h2>
+      <div class="city-buttons">
+        <button class="city-btn">New York</button>
+        <button class="city-btn">Los Angeles</button>
+        <button class="city-btn">Chicago</button>
+        <button class="city-btn">Houston</button>
+        <button class="city-btn">Miami</button>
+      </div>
+    </section>
+    
+    <main>
+      <section class="current-weather">
+        <h2>Current Weather</h2>
+        <div id="current-weather-info">
+          <!-- Weather details will be displayed here -->
+        </div>
+      </section>
+      
+      <section class="forecast">
+        <h2>5-Day Forecast</h2>
+        <div id="forecast-info" class="forecast-cards">
+          <!-- Forecast details will be displayed here -->
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="asssets/js/script.js"></script>
+</body>
+</html>
