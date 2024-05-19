@@ -7,7 +7,16 @@ const requestUrl = `api.openweathermap.org/data/2.5/forecast?q=${cityname}&appid
 
 fetch(requestUrl)
   .then(function (response) {
-    return response.json();
+    return response.json();{
+      console.log(response);
+      if (response.status===200){
+        response.text.textcontent =response.status;
+        return response.json();
+      } else {
+        alert ('bad Request');
+      }
+    } 
+    
   })
   .then(function (data) {
     console.log(data);
@@ -16,5 +25,3 @@ fetch(requestUrl)
 
 
 
-
- 

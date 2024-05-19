@@ -1,5 +1,7 @@
 
-# Weather Dashboard README
+# Weather Dashboard 
+
+
 
 ## Overview
 This project is a weather dashboard application that provides users with current weather conditions and a five-day forecast for any city. The application fetches weather data from the OpenWeather API and displays it in a user-friendly interface.
