@@ -30,7 +30,12 @@ University of Minnesota Coding Boot Camp
 3. View the current weather conditions and the five-day forecast for the searched city.
 4. Click on any city in the recent searches list to quickly view its weather data.
 
+## Future Updates and Bug Fixes
+ Weather Dashboard Issue:
+1.  Currently, when you enter a new city name into the weather dashboard, it loads both the previous city’s data and the current city’s data. The only way to refresh the information correctly is to reload the page.
 
+Upcoming Feature: 
+2. I plan to implement city information into the shortcuts displayed above the current forecast.
 
 ## Contact
 For any questions or suggestions, please contact me at lyoko1629@gmail.com

@@ -11,12 +11,12 @@ body {
     height: 100vh;
   }
   
-  .container {
+  .weatherdash{
     width: 80%;
     max-width: 1200px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
   }
   
@@ -26,6 +26,7 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
   }
   
   .header input[type="text"] {
@@ -106,7 +107,7 @@ body {
   
   .forecast h2 {
     color: #343a40; 
-  
+  }
   .forecast-cards {
     display: flex;
     justify-content: space-between;
@@ -123,10 +124,26 @@ body {
   .forecast-card h3 {
     color: #495057; 
   }
+
+  .forecastCard{
+    background-color: #f8f9fa; 
+    padding: 10px;
+    border-radius: 4px;
+    width: 18%;
+    text-align: center;
+
+  }
   
-    
+  .btn-btn-danger{
+    margin-top: 20px;
+
+  }
   
   
   
-  
-  
+  .currentCard {
+    background-color: #f8f9fa;
+    border-color: #007BFF;
+    padding: 25px;
+    border-radius: 10px; /* Adjust the value to make the corners more or less rounded */
+}
